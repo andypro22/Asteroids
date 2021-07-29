@@ -16,7 +16,6 @@ running = True
 while running:
     # Events
     for event in pygame.event.get():
-
         # Quitting
         if event.type == pygame.QUIT:
             running = False
